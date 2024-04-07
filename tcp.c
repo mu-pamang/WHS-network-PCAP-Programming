@@ -4,8 +4,8 @@
 #include <pcap.h>
 #include <netinet/ip.h>
 #include <netinet/tcp.h>
-#include <stdbool.h> // 추가
-#include "myheader.h" // Custom header file
+#include <stdbool.h> 
+#include "myheader.h" 
 
 void usage() {
     printf("syntax: pcap-test <interface>\n");
